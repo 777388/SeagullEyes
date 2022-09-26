@@ -1,6 +1,8 @@
 # SeagullEyes
 Online Connection Dimension Detection and Constant Connection program
 
+The theory is that if there's a matrix then every rootserver would have differing information on websites due to load balancing of the simulation. Giving us different dimensions of a website where things may or may not be the same as if you were connected to a different root server.
+
 Usage: python3 seagulleyes.py /website/here
 
 requires GAU https://github.com/lc/gau
