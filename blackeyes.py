@@ -35,7 +35,7 @@ def threads(ip):
     t2.join()
 if __name__ =="__main__":
     ips = ["192.175.48.6", "192.175.48.42", "192.175.48.1"]
-    for i in range(2):
+    for i in range(3):
         print("Choice"+str(i)+" :"+str(ips[i]))
     for ipd in ips: 
         threads(ipd)
