@@ -43,5 +43,5 @@ if __name__ =="__main__":
     print("Which blackhole server dimension would you like to be in? pick 0 through 2")
     x = input()
     while True:
-        os.popen("dig +trace "+str(ips[x])).read()
-        print("Connected to:"+str(ips[x]), end="\r", flush=True)
+        os.popen("dig +trace "+ips[x]).read()
+        print("Connected to:"+ips[x], end="\r", flush=True)
